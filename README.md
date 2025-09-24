@@ -17,9 +17,9 @@ Ranking framework for ethical investing portfolios
 
 
 Repository Structure
-├── data/                    
-├── notebooks/              
-├── dashboard/            
+├── data                    
+├── notebooks             
+├── dashboard            
 ├── requirements.txt         
 └── README.md              
 
@@ -42,6 +42,10 @@ Future Work
 Extend analysis to include time-series ESG trends
 Compare ESG-based portfolio returns with market benchmarks
 Integrate real-time data sources (APIs, financial platforms)
+
+How to Run ?
+
+Make sure esg_portfolio.ipynb, app.py, and the dataset are in the same folder. First, esg_portfolio.ipynb to preprocess the data. Then, run train_models.ipynb to train the models. Finally, launch the app using the terminal or command prompt: streamlit run app.py
 
 
 Author
